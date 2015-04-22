@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1ca3ec8d05a411a21dbbb9b2839b979f",
+    "hash": "82ca5b00a2c9e1e52d73e5d5f13b8a0b",
     "packages": [
         {
             "name": "filp/whoops",
@@ -63,6 +63,47 @@
                 "zf2"
             ],
             "time": "2015-03-30 15:26:59"
+        },
+        {
+            "name": "gabordemooij/redbean",
+            "version": "v4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gabordemooij/redbean.git",
+                "reference": "840a2e0d856042e75a701453f37896c597c6fbc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/840a2e0d856042e75a701453f37896c597c6fbc2",
+                "reference": "840a2e0d856042e75a701453f37896c597c6fbc2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RedBeanPHP\\": "RedBeanPHP"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD and GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Gabor de Mooij",
+                    "email": "gabor@redbeanphp.com",
+                    "homepage": "http://redbeanphp.com"
+                }
+            ],
+            "description": "RedBeanPHP ORM",
+            "homepage": "http://redbeanphp.com/",
+            "keywords": [
+                "orm"
+            ],
+            "time": "2015-04-01 19:03:42"
         },
         {
             "name": "illuminate/container",
@@ -321,6 +362,61 @@
             "time": "2015-03-26 03:05:57"
         },
         {
+            "name": "smarty/smarty",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "de892651c20259bcf036539e2837c9164667876b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/de892651c20259bcf036539e2837c9164667876b",
+                "reference": "de892651c20259bcf036539e2837c9164667876b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/Smarty.class.php",
+                    "libs/SmartyBC.class.php",
+                    "libs/sysplugins/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2015-04-20 20:59:45"
+        },
+        {
             "name": "symfony/translation",
             "version": "v2.6.6",
             "target-dir": "Symfony/Component/Translation",
@@ -440,7 +536,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "smarty/smarty": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

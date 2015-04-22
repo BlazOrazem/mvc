@@ -6,10 +6,10 @@ $capsule = new Capsule();
 
 $capsule->addConnection([
     'driver'    => 'mysql',
-    'host'      => '127.0.0.1',
-    'database'  => 'website',
-    'username'  => 'root',
-    'password'  => '',
+    'host'      => 'localhost',
+    'database'  => 'mvc',
+    'username'  => 'mvc',
+    'password'  => 'mvc123',
     'charset'   => 'utf8',
     'collation' => 'utf8_unicode_ci',
     'prefix'    => ''

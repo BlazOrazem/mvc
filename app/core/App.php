@@ -18,7 +18,7 @@ class App
      *
      * @var string
      */
-    protected $controller = 'home';
+    protected $controller = 'Home';
 
     /**
      * Stores the method from the split URL
